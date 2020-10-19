@@ -1,0 +1,115 @@
+/* RESET */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  background-color: #cbc6e2;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* General theme Styles */
+
+h1 {
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;  
+  width: 235px;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+}
+
+.main {
+  margin: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card {
+  margin: 10px auto;
+  background-color: #2b2059;
+  color: #B3B8CD;
+  padding-top: 30px;    
+  text-align: center;
+  box-shadow: 2px 3px 15px 1px rgba(0,0,0,0.66);
+  align-self: start;
+
+}
+
+img {
+  border-radius: 50%;
+  padding: 3px;
+  border: 2px solid white;
+  width: 110px;
+}
+
+.skills {
+  background-color: #493b88;
+  text-align: left;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.skills ul {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.skills li {
+  padding: 5px;
+  border: 1px solid #ffffff3b;  
+  font-size: 12px;
+}
+
+button {
+  background-color: #231E39;
+  border: 1px solid #03BFCB;
+  border-radius: 3px;
+  color: #03BFCB;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #03BFCB;
+  color: #231E39
+}
+
